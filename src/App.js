@@ -1,10 +1,11 @@
+import React from "react";
+import Image from "./components/Image.js";
 import "./App.css";
 import "./Basic-Style.css";
-import Image from "./components/Image.js";
 
 function App() {
   return (
-    <section className="container">
+    <div className="image__container">
       <Image
         src={
           "https://images.unsplash.com/photo-1661933021480-75b708d5648f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -47,7 +48,7 @@ function App() {
         }
         idx={7}
       />
-    </section>
+    </div>
   );
 }
 
